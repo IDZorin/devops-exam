@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "hw-devops-exam"
+version = "0.1.0"
+description = "HW5 Exam"
+authors = ["Zorin Dmitrii"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mlflow = "*"
+cryptography = "41.0.5"
+evidently = "*"
+pandas = "*"
+numpy = "1.26.4"
+scikit-learn = "*"
+seaborn = "*"
+matplotlib = "*"
+joblib = "*"
+setuptools = "*"
+deepchecks = "0.19.1"
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+requests = "*"
+locust = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

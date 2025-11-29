@@ -1,0 +1,13 @@
+version: "3.9"
+name: devops-final
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: devops-final-api:latest
+    ports:
+      - "8000:8000"
+    environment:
+      MODEL_PATH: /app/models/rf_iris_model.pkl

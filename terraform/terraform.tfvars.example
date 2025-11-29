@@ -1,0 +1,9 @@
+yc_token     = "paste_iam_or_oauth_token"
+yc_cloud_id  = "b1gXXXXXXXXXXXXXXX"
+yc_folder_id = "b1fXXXXXXXXXXXXXXX"
+yc_zone      = "ru-central1-a"
+
+registry_name   = "fastapi-reg"
+repository_name = "fastapi-sls"
+container_name  = "fastapi-sls"
+image_tag       = "v1"
