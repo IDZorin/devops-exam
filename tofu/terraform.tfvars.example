@@ -1,0 +1,2 @@
+docker_network_name = "devops-final-net"
+docker_volume_name  = "devops-final-models"

@@ -229,5 +229,9 @@ terraform.tfstate
 terraform.tfstate.*
 terraform/terraform.tfstate*
 terraform/terraform.tfvars
+tofu/.terraform/
+tofu/terraform.tfstate
+tofu/terraform.tfstate.*
+tofu/terraform.tfvars
 docs/
 schema.json
