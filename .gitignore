@@ -221,7 +221,6 @@ __pycache__/
 venv/
 .env/
 mlruns/
-reports/
 models/
 .ipynb_checkpoints/
 .terraform/
